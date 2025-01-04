@@ -4,5 +4,6 @@ public enum SortType
 {
     Insertion,
     Gnome,
-    Selection
+    Selection,
+    Shell
 }

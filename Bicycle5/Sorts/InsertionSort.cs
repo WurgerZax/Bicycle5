@@ -2,16 +2,6 @@ using Bicycle5.Interfaces;
 
 namespace Bicycle5.Sorts;
 
-// for i = 2 to A.length do 
-//     key = A[i]
-// j = i-1
-// while (j >= 0 and A[j] > key) do 
-//     A[j + 1] = A[j]
-// j = j - 1
-// end while
-// A[j+1] = key
-// end [5]
-
 public class InsertionSort: ISort
 {
     public int[] Sort(int[] source)
